@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Agenda</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <img class="imagem" src="./img/wepik-export-202308292342508QLz.png" alt="">
+            <h1>Agenda de contatos</h1>
+        </header>
+        <form id="form-agenda">
+            <input type="text" id="nome-contato" placeholder="Nome" required>
+            <input type="tel" id="número-contato" placeholder="Número" required>
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th>Nome do Contato</th>
+                    <th>Número do Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
